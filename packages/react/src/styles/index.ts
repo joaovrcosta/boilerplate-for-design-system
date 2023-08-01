@@ -1,11 +1,11 @@
 import {
-  colors,
-  fontSizes,
-  fontWeights,
-  fonts,
-  lineHeights,
-  radii,
-  space,
+  Colors,
+  FontSizes,
+  FontWeights,
+  Fonts,
+  LineHeights,
+  Radii,
+  Space,
 } from '@ignite-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
@@ -25,12 +25,12 @@ export const {
     width: 'space',
   },
   theme: {
-    colors: colors,
-    fontSizes: fontSizes,
-    fontWeights: fontWeights,
-    fonts: fonts,
-    lineHeights: lineHeights,
-    radii: radii,
-    space: space,
+    colors: Colors,
+    fontSizes: FontSizes,
+    fontWeights: FontWeights,
+    fonts: Fonts,
+    lineHeights: LineHeights,
+    radii: Radii,
+    space: Space,
   },
 })
