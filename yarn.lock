@@ -1154,13 +1154,14 @@
   "resolved" "file:packages/docs"
   "version" "1.0.0"
   dependencies:
+    "polished" "^4.2.2"
     "react" "^18.2.0"
     "react-dom" "^18.2.0"
 
 "@ignite-ui/eslint-config@*", "@ignite-ui/eslint-config@file:D:\\projects\\ignite-reactjs\\reactjs-module-five\\packages\\eslint-config":
   "resolved" "file:packages/eslint-config"
 
-"@ignite-ui/react@file:D:\\projects\\ignite-reactjs\\reactjs-module-five\\packages\\react":
+"@ignite-ui/react@*", "@ignite-ui/react@file:D:\\projects\\ignite-reactjs\\reactjs-module-five\\packages\\react":
   "resolved" "file:packages/react"
   "version" "1.0.0"
   dependencies:
