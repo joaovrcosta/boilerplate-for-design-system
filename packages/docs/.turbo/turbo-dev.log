@@ -1,0 +1,27 @@
+
+> @ignite-ui/docs@1.0.0 dev
+> storybook dev -p 6006
+
+@storybook/cli v7.1.1
+
+info => Starting manager..
+╭──────────────────────────────────────────────────────────────────────────────╮│                                                                              ││   Storybook 7.1.1 for D:\projects\ignite-reactjs\reactjs-module-five\node_   ││   modules\@storybook\react-vite started                                      ││   852 ms for manager and 3.06 s for preview                                  ││                                                                              ││   Local:            http://localhost:6006/                                   ││   On your network:  http://26.103.7.171:6006/                                ││                                                                              ││   A new version (7.2.1) is available!                                        ││                                                                              ││   Upgrade now: npx storybook@latest upgrade                                  ││                                                                              ││   Read full changelog:                                                       ││   https://github.com/storybookjs/storybook/blob/next/CHANGELOG.md            ││                                                                              │╰──────────────────────────────────────────────────────────────────────────────╯
+WARN Expected '@storybook/addon-actions' (or '@storybook/addon-essentials') to be listed before '@storybook/addon-interactions' in main Storybook config.
+[2m13:28:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:28:37[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:28:48[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:29:39[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:29:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:29:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:30:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:30:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:31:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:31:43[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:31:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:32:09[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:32:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:32:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:32:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:32:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:33:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:33:46[22m [36m[1m[vite][22m[39m [32mhmr upda
