@@ -1,0 +1,98 @@
+
+> @ignite-ui/docs@1.0.0 dev
+> storybook dev -p 6006
+
+@storybook/cli v7.1.1
+
+info => Starting manager..
+╭──────────────────────────────────────────────────────────────────────────────╮│                                                                              ││   Storybook 7.1.1 for D:\projects\ignite-reactjs\reactjs-module-five\node_   ││   modules\@storybook\react-vite started                                      ││   815 ms for manager and 3.48 s for preview                                  ││                                                                              ││   Local:            http://localhost:6006/                                   ││   On your network:  http://26.103.7.171:6006/                                ││                                                                              ││   A new version (7.2.1) is available!                                        ││                                                                              ││   Upgrade now: npx storybook@latest upgrade                                  ││                                                                              ││   Read full changelog:                                                       ││   https://github.com/storybookjs/storybook/blob/next/CHANGELOG.md            ││                                                                              │╰──────────────────────────────────────────────────────────────────────────────╯
+WARN Expected '@storybook/addon-actions' (or '@storybook/addon-essentials') to be listed before '@storybook/addon-interactions' in main Storybook config.
+[2m14:33:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:43:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:43:32[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33m@radix-ui/react-checkbox[32m[39m
+[2m14:43:32[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+WARN Expected '@storybook/addon-actions' (or '@storybook/addon-essentials') to be listed before '@storybook/addon-interactions' in main Storybook config.
+[2m14:44:00[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN Expected '@storybook/addon-actions' (or '@storybook/addon-essentials') to be listed before '@storybook/addon-interactions' in main Storybook config.
+[2m14:44:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN 🚨 Unable to index ./src/stories/Checkbox.stories.tsx:
+WARN   NoMetaError: CSF: missing default export D:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Checkbox.stories.tsx (line 1, col 0)
+WARN 
+WARN More info: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
+WARN     at CsfFile.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:14:206)
+WARN     at Object.indexer (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\presets\common-preset.js:21:2038)
+WARN     at async StoryIndexGenerator.extractStories (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:3547)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1881
+WARN     at async Promise.all (index 7)
+WARN     at async Promise.all (index 1)
+WARN     at async StoryIndexGenerator.updateExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1653)
+WARN     at async StoryIndexGenerator.ensureExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:2274)
+WARN     at async StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3400)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+[2m14:47:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:47:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:48:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:49:09[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:49:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:49:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:49:26[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:49:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:49:43[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:50:03[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:50:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:51:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:51:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:51:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:56:48[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:57:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN 🚨 Unable to index ./src/stories/MultiStep.stories.tsx:
+WARN   NoMetaError: CSF: missing default export D:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/MultiStep.stories.tsx (line 1, col 0)
+WARN 
+WARN More info: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
+WARN     at CsfFile.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:14:206)
+WARN     at Object.indexer (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\presets\common-preset.js:21:2038)
+WARN     at async StoryIndexGenerator.extractStories (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:3547)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1881
+WARN     at async Promise.all (index 8)
+WARN     at async Promise.all (index 1)
+WARN     at async StoryIndexGenerator.updateExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1653)
+WARN     at async StoryIndexGenerator.ensureExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:2274)
+WARN     at async StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3400)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+WARN 🚨 Unable to index ./src/stories/TextInput.stories.tsx,./src/stories/MultiStep.stories.tsx:
+WARN   Error: Duplicate stories with id: form-textinput--primary
+WARN     at StoryIndexGenerator.chooseDuplicate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:1455)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3736
+WARN     at Array.forEach (<anonymous>)
+WARN     at StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3643)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+WARN 🚨 Unable to index ./src/stories/TextInput.stories.tsx,./src/stories/MultiStep.stories.tsx:
+WARN   Error: Duplicate stories with id: form-textinput--primary
+WARN     at StoryIndexGenerator.chooseDuplicate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:1455)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3736
+WARN     at Array.forEach (<anonymous>)
+WARN     at StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3643)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+[2m14:59:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:59:26[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:59:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:59:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:59:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:00:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:00:44[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:00:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:01:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:01:37[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:01:45[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:02:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:02:21[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:02:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:02:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:03:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:03:38[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:04:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:04:44[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:04:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:05:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:05:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:06:45[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builde
