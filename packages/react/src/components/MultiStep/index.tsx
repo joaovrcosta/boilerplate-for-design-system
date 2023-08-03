@@ -22,3 +22,5 @@ export function MultiStep({ step, currentStep = 1 }: MultiStepProps) {
     </MultiStepContainer>
   )
 }
+
+MultiStep.displayName = 'MultiStep'

@@ -1,0 +1,1094 @@
+
+> @ignite-ui/react@1.0.0 dev
+> tsup src/index.tsx --format esm,cjs --dts --external react --watch
+
+[34mCLI[39m Building entry: src/index.tsx
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v7.1.0
+[34mCLI[39m Running in watch mode
+[34mCLI[39m Target: es6
+[34mESM[39m Build start
+[34mCJS[39m Build start
+
+ WARN  [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUse "src/components/TextArea.tsx" instead of "src/components/Textarea.tsx" to avoid issues with case-sensitive file systems[0m [different-path-case]
+
+    src/index.tsx:7:14:
+[37m      7 │ export * from [32m'./components/Textarea'[37m
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+[32mESM[39m [1mdist\index.mjs [22m[32m8.42 KB[39m
+[32mESM[39m ⚡️ Build success in 193ms
+
+
+
+
+ WARN  [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUse "src/components/TextArea.tsx" instead of "src/components/Textarea.tsx" to avoid issues with case-sensitive file systems[0m [different-path-case]
+
+    src/index.tsx:7:14:
+[37m      7 │ export * from [32m'./components/Textarea'[37m
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+[32mCJS[39m [1mdist\index.js [22m[32m10.25 KB[39m
+[32mCJS[39m ⚡️ Build success in 207ms
+
+
+
+[34mCLI[39m Watching for changes in "."
+[34mCLI[39m Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 5023ms
+[34mCLI[39m Change detected: change package.json
+[34mESM[39m Build start
+[34mCJS[39m Build start
+
+ WARN  [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUse "src/components/TextArea.tsx" instead of "src/components/Textarea.tsx" to avoid issues with case-sensitive file systems[0m [different-path-case]
+
+    src/index.tsx:7:14:
+[37m      7 │ export * from [32m'./components/Textarea'[37m
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[32mCJS[39m [1mdist\index.js [22m[32m10.25 KB[39m
+
+
+
+ WARN  [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUse "src/components/TextArea.tsx" instead of "src/components/Textarea.tsx" to avoid issues with case-sensitive file systems[0m [different-path-case]
+
+[32mCJS[39m ⚡️ Build success in 39ms
+[32mESM[39m [1mdist\index.mjs [22m[32m8.42 KB[39m
+[32mESM[39m ⚡️ Build success in 41ms
+    src/index.tsx:7:14:
+[37m      7 │ export * from [32m'./components/Textarea'[37m
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+
+[34mCLI[39m Change detected: change src/index.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m8.88 KB[39m
+[32mESM[39m ⚡️ Build success in 31ms
+[32mCJS[39m [1mdist\index.js [22m[32m10.83 KB[39m
+[32mCJS[39m ⚡️ Build success in 38ms
+[32mDTS[39m ⚡️ Build success in 4692ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/index.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+X [ERROR] Expected "as" but found "from"
+
+    src/index.tsx:7:9:
+      7 │ import * from './components/TextArea'
+        │          ~~~~
+        ╵          as
+
+X [ERROR] Expected "as" but found "from"
+
+    src/index.tsx:7:9:
+      7 │ import * from './components/TextArea'
+        │          ~~~~
+        ╵          as
+
+[31mCJS[39m [31mBuild failed[39m
+[31mError: Build failed with 1 error:
+src/index.tsx:7:9: ERROR: Expected "as" but found "from"
+    at failureErrorWithLog (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1649:15)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1058:25
+    at runOnEndCallbacks (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1484:45)
+    at buildResponseToResult (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1056:7)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1085:16
+    at responseCallbacks.<computed> (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:703:9)
+    at handleIncomingPacket (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:762:9)
+    at Socket.readFromStdout (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:679:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)[39m
+[31mESM[39m [31mBuild failed[39m
+src/index.tsx(7,10): error TS1005: 'as' expected.
+src/index.tsx(7,15): error TS1005: 'from' expected.
+
+[31mDTS[39m [31mBuild failed[39m
+[31mRollupError: Failed to compile. Check the logs above.
+    at error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:349:30)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1715:20)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:25438:42)
+    at generateDtsFromTs (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7500:22)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:59
+    at _nullishCoalesce (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:1:198)
+[34mDTS[39m Build start
+    at Object.transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:18)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1908:40[39m
+src/index.tsx(7,10): error TS1005: 'as' expected.
+src/index.tsx(7,15): error TS1005: 'from' expected.
+
+[31mDTS[39m [31mBuild failed[39m
+[31mRollupError: Failed to compile. Check the logs above.
+    at error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:349:30)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1715:20)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:25438:42)
+    at generateDtsFromTs (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7500:22)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:59
+    at _nullishCoalesce (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:1:198)
+    at Object.transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:18)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1908:40[39m
+[34mCLI[39m Change detected: change src/index.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m9.44 KB[39m
+[32mESM[39m ⚡️ Build success in 27ms
+[32mCJS[39m [1mdist\index.js [22m[32m11.41 KB[39m
+[32mCJS[39m ⚡️ Build success in 29ms
+[32mDTS[39m ⚡️ Build success in 3268ms
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+X [ERROR] Expected "}" but found "'&:focus'"
+
+    src/components/Checkbox/styles.ts:23:2:
+      23 │   '&:focus': {
+         │   ~~~~~~~~~
+         ╵   }
+
+X [ERROR] Expected "}" but found "'&:focus'"
+
+    src/components/Checkbox/styles.ts:23:2:
+      23 │   '&:focus': {
+         │   ~~~~~~~~~
+         ╵   }
+
+[31mCJS[39m [31mBuild failed[39m
+[31mError: Build failed with 1 error:
+src/components/Checkbox/styles.ts:23:2: ERROR: Expected "}" but found "'&:focus'"
+    at failureErrorWithLog (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1649:15)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1058:25
+    at runOnEndCallbacks (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1484:45)
+    at buildResponseToResult (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1056:7)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1085:16
+    at responseCallbacks.<computed> (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:703:9)
+    at handleIncomingPacket (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:762:9)
+    at Socket.readFromStdout (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:679:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)[39m
+[31mESM[39m [31mBuild failed[39m
+src/components/Checkbox/styles.ts(23,3): error TS1005: ',' expected.
+
+[31mDTS[39m [31mBuild failed[39m
+[31mRollupError: Failed to compile. Check the logs above.
+    at error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:349:30)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1715:20)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:25438:42)
+    at generateDtsFromTs (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7500:22)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:59
+    at _nullishCoalesce (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:1:198)
+    at Object.transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:18)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1908:40[39m
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m11.48 KB[39m
+[32mCJS[39m ⚡️ Build success in 56ms
+[32mESM[39m [1mdist\index.mjs [22m[32m9.50 KB[39m
+[32mESM[39m ⚡️ Build success in 57ms
+[32mDTS[39m ⚡️ Build success in 3187ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m11.48 KB[39m
+[32mCJS[39m ⚡️ Build success in 83ms
+[32mESM[39m [1mdist\index.mjs [22m[32m9.50 KB[39m
+[32mESM[39m ⚡️ Build success in 93ms
+[32mDTS[39m ⚡️ Build success in 3281ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 1990ms
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m11.48 KB[39m
+[32mCJS[39m ⚡️ Build success in 80ms
+[32mESM[39m [1mdist\index.mjs [22m[32m9.50 KB[39m
+[32mESM[39m ⚡️ Build success in 84ms
+[32mDTS[39m ⚡️ Build success in 3938ms
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m9.54 KB[39m
+[32mESM[39m ⚡️ Build success in 41ms
+[32mCJS[39m [1mdist\index.js [22m[32m11.52 KB[39m
+[32mCJS[39m ⚡️ Build success in 49ms
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m9.58 KB[39m
+[32mESM[39m ⚡️ Build success in 59ms
+[32mCJS[39m [1mdist\index.js [22m[32m11.55 KB[39m
+[32mCJS[39m ⚡️ Build success in 63ms
+[32mDTS[39m ⚡️ Build success in 3470ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 3031ms
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m9.61 KB[39m
+[32mESM[39m ⚡️ Build success in 30ms
+[32mCJS[39m [1mdist\index.js [22m[32m11.58 KB[39m
+[32mCJS[39m ⚡️ Build success in 30ms
+[32mDTS[39m ⚡️ Build success in 2674ms
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m11.58 KB[39m
+[32mCJS[39m ⚡️ Build success in 29ms
+[32mESM[39m [1mdist\index.mjs [22m[32m9.61 KB[39m
+[32mESM[39m ⚡️ Build success in 35ms
+[32mDTS[39m ⚡️ Build success in 2899ms
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m11.58 KB[39m
+[32mCJS[39m ⚡️ Build success in 34ms
+[32mESM[39m [1mdist\index.mjs [22m[32m9.61 KB[39m
+[32mESM[39m ⚡️ Build success in 34ms
+[32mDTS[39m ⚡️ Build success in 2986ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m9.72 KB[39m
+[32mESM[39m ⚡️ Build success in 105ms
+[32mCJS[39m [1mdist\index.js [22m[32m11.69 KB[39m
+[32mCJS[39m ⚡️ Build success in 143ms
+[32mDTS[39m ⚡️ Build success in 3051ms
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m11.69 KB[39m
+[32mCJS[39m ⚡️ Build success in 30ms
+[32mESM[39m [1mdist\index.mjs [22m[32m9.72 KB[39m
+[32mESM[39m ⚡️ Build success in 32ms
+[32mDTS[39m ⚡️ Build success in 3249ms
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m9.80 KB[39m
+[32mESM[39m ⚡️ Build success in 36ms
+[32mCJS[39m [1mdist\index.js [22m[32m11.77 KB[39m
+[32mCJS[39m ⚡️ Build success in 44ms
+[32mDTS[39m ⚡️ Build success in 3312ms
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m9.88 KB[39m
+[32mESM[39m ⚡️ Build success in 42ms
+[32mCJS[39m [1mdist\index.js [22m[32m11.85 KB[39m
+[32mCJS[39m ⚡️ Build success in 50ms
+[32mDTS[39m ⚡️ Build success in 3016ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m9.88 KB[39m
+[32mESM[39m ⚡️ Build success in 34ms
+[32mCJS[39m [1mdist\index.js [22m[32m11.85 KB[39m
+[32mCJS[39m ⚡️ Build success in 46ms
+[32mDTS[39m ⚡️ Build success in 2963ms
+[34mCLI[39m Change detected: change src/components/Checkbox/styles.ts
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m11.85 KB[39m
+[32mCJS[39m ⚡️ Build success in 68ms
+[32mESM[39m [1mdist\index.mjs [22m[32m9.88 KB[39m
+[32mESM[39m ⚡️ Build success in 72ms
+[32mDTS[39m ⚡️ Build success in 3444ms
+[34mCLI[39m Change detected: change src/index.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.14 KB[39m
+[32mESM[39m ⚡️ Build success in 37ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.17 KB[39m
+[32mCJS[39m ⚡️ Build success in 36ms
+[32mDTS[39m ⚡️ Build success in 3737ms
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.14 KB[39m
+[32mESM[39m ⚡️ Build success in 49ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.17 KB[39m
+[32mCJS[39m ⚡️ Build success in 53ms
+[32mDTS[39m ⚡️ Build success in 3561ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.17 KB[39m
+[32mCJS[39m ⚡️ Build success in 42ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.14 KB[39m
+[32mESM[39m ⚡️ Build success in 43ms
+[32mDTS[39m ⚡️ Build success in 3015ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 2042ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.17 KB[39m
+[32mCJS[39m ⚡️ Build success in 37ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.14 KB[39m
+[32mESM[39m ⚡️ Build success in 38ms
+[32mDTS[39m ⚡️ Build success in 3070ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 1961ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.17 KB[39m
+[32mCJS[39m ⚡️ Build success in 51ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.14 KB[39m
+[32mESM[39m ⚡️ Build success in 51ms
+[32mDTS[39m ⚡️ Build success in 2947ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 1923ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.19 KB[39m
+[32mCJS[39m ⚡️ Build success in 35ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.16 KB[39m
+[32mESM[39m ⚡️ Build success in 40ms
+[32mDTS[39m ⚡️ Build success in 3651ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 1866ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.19 KB[39m
+[32mESM[39m ⚡️ Build success in 34ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.22 KB[39m
+[32mCJS[39m ⚡️ Build success in 34ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.19 KB[39m
+[32mESM[39m ⚡️ Build success in 32ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.22 KB[39m
+[32mCJS[39m ⚡️ Build success in 33ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.24 KB[39m
+[32mCJS[39m ⚡️ Build success in 30ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.21 KB[39m
+[32mESM[39m ⚡️ Build success in 31ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.23 KB[39m
+[32mESM[39m ⚡️ Build success in 30ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.26 KB[39m
+[32mCJS[39m ⚡️ Build success in 31ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.35 KB[39m
+[32mCJS[39m ⚡️ Build success in 31ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.29 KB[39m
+[32mESM[39m ⚡️ Build success in 39ms
+[32mDTS[39m ⚡️ Build success in 3848ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 2212ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.35 KB[39m
+[32mCJS[39m ⚡️ Build success in 37ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.29 KB[39m
+[32mESM[39m ⚡️ Build success in 37ms
+[32mDTS[39m ⚡️ Build success in 3196ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 1959ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.34 KB[39m
+[32mESM[39m ⚡️ Build success in 37ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.38 KB[39m
+[32mCJS[39m ⚡️ Build success in 38ms
+[32mDTS[39m ⚡️ Build success in 4003ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 2128ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.39 KB[39m
+[32mCJS[39m ⚡️ Build success in 34ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.35 KB[39m
+[32mESM[39m ⚡️ Build success in 37ms
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.35 KB[39m
+[32mESM[39m ⚡️ Build success in 40ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.39 KB[39m
+[32mCJS[39m ⚡️ Build success in 51ms
+src/components/MultiStep/index.tsx(8,29): error TS2339: Property 'steps' does not exist on type 'MultiStepProps'.
+src/components/MultiStep/index.tsx(12,33): error TS2552: Cannot find name 'step'. Did you mean 'steps'?
+
+[31mDTS[39m [31mBuild failed[39m
+[31mRollupError: Failed to compile. Check the logs above.
+    at error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:349:30)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1715:20)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:25438:42)
+[34mDTS[39m Build start
+    at generateDtsFromTs (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7500:22)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:59
+    at _nullishCoalesce (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:1:198)
+    at Object.transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:18)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1908:40[39m
+[32mDTS[39m ⚡️ Build success in 3162ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 2069ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.43 KB[39m
+[32mCJS[39m ⚡️ Build success in 34ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.39 KB[39m
+[32mESM[39m ⚡️ Build success in 38ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.37 KB[39m
+[32mESM[39m ⚡️ Build success in 29ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.41 KB[39m
+[32mCJS[39m ⚡️ Build success in 29ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+X [ERROR] Expected ";" but found "{"
+
+    src/components/MultiStep/styles.ts:14:18:
+      14 │ export const Step {}
+         │                   ^
+         ╵                   ;
+
+X [ERROR] Expected ";" but found "{"
+
+    src/components/MultiStep/styles.ts:14:18:
+      14 │ export const Step {}
+         │                   ^
+         ╵                   ;
+
+[31mCJS[39m [31mBuild failed[39m
+[31mError: Build failed with 1 error:
+src/components/MultiStep/styles.ts:14:18: ERROR: Expected ";" but found "{"
+    at failureErrorWithLog (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1649:15)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1058:25
+    at runOnEndCallbacks (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1484:45)
+    at buildResponseToResult (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1056:7)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1085:16
+    at responseCallbacks.<computed> (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:703:9)
+    at handleIncomingPacket (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:762:9)
+    at Socket.readFromStdout (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:679:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)[39m
+[31mESM[39m [31mBuild failed[39m
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+X [ERROR] Expected ";" but found "{"
+
+    src/components/MultiStep/styles.ts:14:19:
+      14 │ export const Steps {}}
+         │                    ^
+         ╵                    ;
+
+X [ERROR] Expected ";" but found "{"
+
+    src/components/MultiStep/styles.ts:14:19:
+      14 │ export const Steps {}}
+         │                    ^
+         ╵                    ;
+
+[31mCJS[39m [31mBuild failed[39m
+[31mError: Build failed with 1 error:
+src/components/MultiStep/styles.ts:14:19: ERROR: Expected ";" but found "{"
+    at failureErrorWithLog (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1649:15)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1058:25
+    at runOnEndCallbacks (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1484:45)
+    at buildResponseToResult (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1056:7)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1085:16
+    at responseCallbacks.<computed> (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:703:9)
+    at handleIncomingPacket (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:762:9)
+    at Socket.readFromStdout (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:679:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)[39m
+[31mESM[39m [31mBuild failed[39m
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+X [ERROR] Expected ";" but found "{"
+
+    src/components/MultiStep/styles.ts:14:19:
+      14 │ export const Steps {}
+         │                    ^
+         ╵                    ;
+
+X [ERROR] Expected ";" but found "{"
+
+    src/components/MultiStep/styles.ts:14:19:
+      14 │ export const Steps {}
+         │                    ^
+         ╵                    ;
+
+[31mESM[39m [31mBuild failed[39m
+[31mError: Build failed with 1 error:
+src/components/MultiStep/styles.ts:14:19: ERROR: Expected ";" but found "{"
+    at failureErrorWithLog (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1649:15)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1058:25
+    at runOnEndCallbacks (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1484:45)
+    at buildResponseToResult (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1056:7)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1085:16
+    at responseCallbacks.<computed> (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:703:9)
+    at handleIncomingPacket (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:762:9)
+    at Socket.readFromStdout (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:679:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)[39m
+[31mCJS[39m [31mBuild failed[39m
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+X [ERROR] Expected ")" but found "{"
+
+    src/components/MultiStep/styles.ts:14:34:
+      14 │ export const Steps = styled('div' {})
+         │                                   ^
+         ╵                                   )
+
+X [ERROR] Expected ")" but found "{"
+
+    src/components/MultiStep/styles.ts:14:34:
+      14 │ export const Steps = styled('div' {})
+         │                                   ^
+         ╵                                   )
+
+[31mESM[39m [31mBuild failed[39m
+[31mError: Build failed with 1 error:
+src/components/MultiStep/styles.ts:14:34: ERROR: Expected ")" but found "{"
+    at failureErrorWithLog (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1649:15)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1058:25
+    at runOnEndCallbacks (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1484:45)
+    at buildResponseToResult (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1056:7)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1085:16
+    at responseCallbacks.<computed> (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:703:9)
+    at handleIncomingPacket (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:762:9)
+    at Socket.readFromStdout (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:679:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)[39m
+[31mCJS[39m [31mBuild failed[39m
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+X [ERROR] Expected ")" but found "{"
+
+    src/components/MultiStep/styles.ts:14:34:
+      14 │ export const Steps = styled('div' {
+         │                                   ^
+         ╵                                   )
+
+X [ERROR] Expected ")" but found "{"
+
+    src/components/MultiStep/styles.ts:14:34:
+      14 │ export const Steps = styled('div' {
+         │                                   ^
+         ╵                                   )
+
+[31mCJS[39m [31mBuild failed[39m
+[31mError: Build failed with 1 error:
+src/components/MultiStep/styles.ts:14:34: ERROR: Expected ")" but found "{"
+    at failureErrorWithLog (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1649:15)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1058:25
+    at runOnEndCallbacks (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1484:45)
+    at buildResponseToResult (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1056:7)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1085:16
+    at responseCallbacks.<computed> (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:703:9)
+    at handleIncomingPacket (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:762:9)
+    at Socket.readFromStdout (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:679:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)[39m
+[31mESM[39m [31mBuild failed[39m
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+X [ERROR] Expected ")" but found "{"
+
+    src/components/MultiStep/styles.ts:14:34:
+      14 │ export const Steps = styled('div' {
+         │                                   ^
+         ╵                                   )
+
+X [ERROR] Expected ")" but found "{"
+
+    src/components/MultiStep/styles.ts:14:34:
+      14 │ export const Steps = styled('div' {
+         │                                   ^
+         ╵                                   )
+
+[31mCJS[39m [31mBuild failed[39m
+[31mError: Build failed with 1 error:
+src/components/MultiStep/styles.ts:14:34: ERROR: Expected ")" but found "{"
+    at failureErrorWithLog (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1649:15)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1058:25
+    at runOnEndCallbacks (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1484:45)
+    at buildResponseToResult (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1056:7)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1085:16
+    at responseCallbacks.<computed> (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:703:9)
+    at handleIncomingPacket (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:762:9)
+    at Socket.readFromStdout (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:679:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)[39m
+[31mESM[39m [31mBuild failed[39m
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+X [ERROR] Expected ")" but found "{"
+
+    src/components/MultiStep/styles.ts:14:34:
+      14 │ export const Steps = styled('div' {
+         │                                   ^
+         ╵                                   )
+
+X [ERROR] Expected ")" but found "{"
+
+    src/components/MultiStep/styles.ts:14:34:
+      14 │ export const Steps = styled('div' {
+         │                                   ^
+         ╵                                   )
+
+[31mCJS[39m [31mBuild failed[39m
+[31mError: Build failed with 1 error:
+src/components/MultiStep/styles.ts:14:34: ERROR: Expected ")" but found "{"
+    at failureErrorWithLog (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1649:15)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1058:25
+    at runOnEndCallbacks (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1484:45)
+    at buildResponseToResult (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1056:7)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1085:16
+    at responseCallbacks.<computed> (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:703:9)
+    at handleIncomingPacket (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:762:9)
+    at Socket.readFromStdout (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:679:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)[39m
+[31mESM[39m [31mBuild failed[39m
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+X [ERROR] Expected ")" but found "{"
+
+    src/components/MultiStep/styles.ts:14:34:
+      14 │ export const Steps = styled('div' {
+         │                                   ^
+         ╵                                   )
+
+X [ERROR] Expected ")" but found "{"
+
+    src/components/MultiStep/styles.ts:14:34:
+      14 │ export const Steps = styled('div' {
+         │                                   ^
+         ╵                                   )
+
+[31mCJS[39m [31mBuild failed[39m
+[31mError: Build failed with 1 error:
+src/components/MultiStep/styles.ts:14:34: ERROR: Expected ")" but found "{"
+    at failureErrorWithLog (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1649:15)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1058:25
+    at runOnEndCallbacks (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1484:45)
+    at buildResponseToResult (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1056:7)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1085:16
+    at responseCallbacks.<computed> (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:703:9)
+    at handleIncomingPacket (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:762:9)
+    at Socket.readFromStdout (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:679:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)[39m
+[31mESM[39m [31mBuild failed[39m
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.43 KB[39m
+[32mESM[39m ⚡️ Build success in 54ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.47 KB[39m
+[32mCJS[39m ⚡️ Build success in 64ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.49 KB[39m
+[32mCJS[39m ⚡️ Build success in 35ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.45 KB[39m
+[32mESM[39m ⚡️ Build success in 36ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.49 KB[39m
+[32mCJS[39m ⚡️ Build success in 31ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.45 KB[39m
+[32mESM[39m ⚡️ Build success in 31ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.49 KB[39m
+[32mESM[39m ⚡️ Build success in 32ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.53 KB[39m
+[32mCJS[39m ⚡️ Build success in 32ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.49 KB[39m
+[32mESM[39m ⚡️ Build success in 28ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.53 KB[39m
+[32mCJS[39m ⚡️ Build success in 28ms
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.58 KB[39m
+[32mESM[39m ⚡️ Build success in 44ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.64 KB[39m
+[32mCJS[39m ⚡️ Build success in 44ms
+[32mDTS[39m ⚡️ Build success in 3871ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.66 KB[39m
+[32mCJS[39m ⚡️ Build success in 29ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.59 KB[39m
+[32mESM[39m ⚡️ Build success in 32ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.66 KB[39m
+[32mCJS[39m ⚡️ Build success in 37ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.59 KB[39m
+[32mESM[39m ⚡️ Build success in 38ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.60 KB[39m
+[32mESM[39m ⚡️ Build success in 57ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.66 KB[39m
+[32mCJS[39m ⚡️ Build success in 60ms
+[32mDTS[39m ⚡️ Build success in 3194ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 1767ms
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.66 KB[39m
+[32mESM[39m ⚡️ Build success in 35ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.72 KB[39m
+[32mCJS[39m ⚡️ Build success in 41ms
+[32mDTS[39m ⚡️ Build success in 3947ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.68 KB[39m
+[32mESM[39m ⚡️ Build success in 33ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.75 KB[39m
+[32mCJS[39m ⚡️ Build success in 37ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+X [ERROR] Unterminated regular expression
+
+    src/components/MultiStep/index.tsx:19:14:
+      19 │       </Steps>
+         ╵               ^
+
+X [ERROR] Unterminated regular expression
+
+    src/components/MultiStep/index.tsx:19:14:
+      19 │       </Steps>
+         ╵               ^
+
+[31mESM[39m [31mBuild failed[39m
+[31mError: Build failed with 1 error:
+src/components/MultiStep/index.tsx:19:14: ERROR: Unterminated regular expression
+    at failureErrorWithLog (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1649:15)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1058:25
+    at runOnEndCallbacks (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1484:45)
+    at buildResponseToResult (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1056:7)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1085:16
+    at responseCallbacks.<computed> (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:703:9)
+    at handleIncomingPacket (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:762:9)
+    at Socket.readFromStdout (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:679:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)[39m
+[31mCJS[39m [31mBuild failed[39m
+src/components/MultiStep/index.tsx(19,7): error TS1005: '}' expected.
+
+[31mDTS[39m [31mBuild failed[39m
+[31mRollupError: Failed to compile. Check the logs above.
+    at error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:349:30)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1715:20)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:25438:42)
+    at generateDtsFromTs (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7500:22)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:59
+[34mDTS[39m Build start
+    at _nullishCoalesce (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:1:198)
+    at Object.transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:18)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1908:40[39m
+src/components/MultiStep/index.tsx(19,7): error TS1005: '}' expected.
+
+[31mDTS[39m [31mBuild failed[39m
+[31mRollupError: Failed to compile. Check the logs above.
+    at error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:349:30)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1715:20)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:25438:42)
+    at generateDtsFromTs (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7500:22)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:59
+    at _nullishCoalesce (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:1:198)
+    at Object.transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:18)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1908:40[39m
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+X [ERROR] Unterminated regular expression
+
+    src/components/MultiStep/index.tsx:19:14:
+      19 │       </Steps>
+         ╵               ^
+
+X [ERROR] Unterminated regular expression
+
+    src/components/MultiStep/index.tsx:19:14:
+      19 │       </Steps>
+         ╵               ^
+
+[31mESM[39m [31mBuild failed[39m
+[31mError: Build failed with 1 error:
+src/components/MultiStep/index.tsx:19:14: ERROR: Unterminated regular expression
+    at failureErrorWithLog (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1649:15)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1058:25
+    at runOnEndCallbacks (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1484:45)
+    at buildResponseToResult (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1056:7)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1085:16
+    at responseCallbacks.<computed> (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:703:9)
+    at handleIncomingPacket (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:762:9)
+    at Socket.readFromStdout (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:679:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)[39m
+[31mCJS[39m [31mBuild failed[39m
+src/components/MultiStep/index.tsx(19,7): error TS1005: '}' expected.
+
+[31mDTS[39m [31mBuild failed[39m
+[31mRollupError: Failed to compile. Check the logs above.
+    at error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:349:30)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1715:20)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:25438:42)
+    at generateDtsFromTs (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7500:22)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:59
+    at _nullishCoalesce (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:1:198)
+    at Object.transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:18)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1908:40[39m
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.85 KB[39m
+[32mCJS[39m ⚡️ Build success in 35ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.76 KB[39m
+[32mESM[39m ⚡️ Build success in 35ms
+[32mDTS[39m ⚡️ Build success in 3240ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+X [ERROR] Expected "}" but found ";"
+
+    src/components/MultiStep/styles.ts:22:17:
+      22 │     height: '$1' ;
+         │                  ^
+         ╵                  }
+
+X [ERROR] Expected "}" but found ";"
+
+    src/components/MultiStep/styles.ts:22:17:
+      22 │     height: '$1' ;
+         │                  ^
+         ╵                  }
+
+[31mCJS[39m [31mBuild failed[39m
+[31mError: Build failed with 1 error:
+src/components/MultiStep/styles.ts:22:17: ERROR: Expected "}" but found ";"
+    at failureErrorWithLog (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1649:15)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1058:25
+    at runOnEndCallbacks (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1484:45)
+    at buildResponseToResult (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1056:7)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:1085:16
+    at responseCallbacks.<computed> (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:703:9)
+    at handleIncomingPacket (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:762:9)
+    at Socket.readFromStdout (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\esbuild\lib\main.js:679:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)[39m
+[31mESM[39m [31mBuild failed[39m
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.80 KB[39m
+[32mESM[39m ⚡️ Build success in 36ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.88 KB[39m
+[32mCJS[39m ⚡️ Build success in 39ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.83 KB[39m
+[32mESM[39m ⚡️ Build success in 38ms
+[32mCJS[39m [1mdist\index.js [22m[32m12.92 KB[39m
+[32mCJS[39m ⚡️ Build success in 38ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.92 KB[39m
+[32mCJS[39m ⚡️ Build success in 30ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.83 KB[39m
+[32mESM[39m ⚡️ Build success in 30ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.92 KB[39m
+[32mCJS[39m ⚡️ Build success in 45ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.83 KB[39m
+[32mESM[39m ⚡️ Build success in 45ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m12.93 KB[39m
+[32mCJS[39m ⚡️ Build success in 32ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.84 KB[39m
+[32mESM[39m ⚡️ Build success in 35ms
+[34mCLI[39m Change detected: change src/components/MultiStep/styles.ts
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m13.01 KB[39m
+[32mCJS[39m ⚡️ Build success in 33ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.92 KB[39m
+[32mESM[39m ⚡️ Build success in 33ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.95 KB[39m
+[32mESM[39m ⚡️ Build success in 47ms
+[32mCJS[39m [1mdist\index.js [22m[32m13.04 KB[39m
+[32mCJS[39m ⚡️ Build success in 63ms
+src/components/MultiStep/index.tsx(19,46): error TS18048: 'currentStep' is possibly 'undefined'.
+
+[31mDTS[39m [31mBuild failed[39m
+[31mRollupError: Failed to compile. Check the logs above.
+    at error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:349:30)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1715:20)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:25438:42)
+    at generateDtsFromTs (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7500:22)
+[34mDTS[39m Build start
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:59
+    at _nullishCoalesce (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:1:198)
+    at Object.transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:18)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1908:40[39m
+src/components/MultiStep/index.tsx(19,46): error TS18048: 'currentStep' is possibly 'undefined'.
+
+[31mDTS[39m [31mBuild failed[39m
+[31mRollupError: Failed to compile. Check the logs above.
+    at error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:349:30)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1715:20)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:25438:42)
+    at generateDtsFromTs (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7500:22)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:59
+    at _nullishCoalesce (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:1:198)
+    at Object.transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\tsup\dist\rollup.js:7507:18)
+    at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1908:40[39m
+[34mCLI[39m Change detected: change src/components/MultiStep/index.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m10.96 KB[39m
+[32mESM[39m ⚡️ Build success in 35ms
+[32mCJS[39m [1mdist\index.js [22m[32m13.04 KB[39m
+[32mCJS[39m ⚡️ Build success in 38ms
+[32mDTS[39m ⚡️ Build success in 3475ms
+[34mCLI[39m Change detected: change src/components/TextArea.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m13.08 KB[39m
+[32mCJS[39m ⚡️ Build success in 43ms
+[32mESM[39m [1mdist\index.mjs [22m[32m10.99 KB[39m
+[32mESM[39m ⚡️ Build success in 44ms
+[32mDTS[39m ⚡️ Build success in 3503ms
+[34mDTS[39m Build start
+[34mCLI[39m Change detected: change src/components/Box.tsx
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js [22m[32m13.10 KB[39m
+[32mCJS[39m ⚡️ Build success in 32ms
+[32mESM[39m [1mdist\index.mjs [22m[32m11.01 KB[39m
+[32mESM[39m ⚡️ Build success in 34ms
+[32mDTS[39m ⚡️ Build success in 3489ms
+[34mCLI[39m Change detected: change src/components/Text.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m11.04 KB[39m
+[32mESM[39m ⚡️ Build success in 29ms
+[32mCJS[39m [1mdist\index.js [22m[32m13.13 KB[39m
+[32mCJS[39m ⚡️ Build success in 35ms
+[32mDTS[39m ⚡️ Build success in 3383ms
+[34mCLI[39m Change detected: change src/components/Heading.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m11.07 KB[39m
+[32mESM[39m ⚡️ Build success in 32ms
+[32mCJS[39m [1mdist\index.js [22m[32m13.16 KB[39m
+[32mCJS[39m ⚡️ Build success in 33ms
+[32mDTS[39m ⚡️ Build success in 3360ms
+[34mCLI[39m Change detected: change src/components/Button.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m11.10 KB[39m
+[32mESM[39m ⚡️ Build success in 29ms
+[32mCJS[39m [1mdist\index.js [22m[32m13.19 KB[39m
+[32mCJS[39m ⚡️ Build success in 35ms
+[32mDTS[39m ⚡️ Build success in 3233ms
+[34mCLI[39m Change detected: change src/components/TextInput/index.tsx
+[34mDTS[39m Build start
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs [22m[32m11.14 KB[39m
+[32mESM[39m ⚡️ Build success in 50ms
+[32mCJS[39m [1mdist\index.js [22m[32m13.23 KB[39m
+[32mCJS[39m ⚡️ Build success in 61ms
+src/components/TextInput/index.tsx(17,1): error TS2552: Cannot find name 'TextualInput'. Did you mean 'TextInput'?
+
+[31mDTS[39m [31mBuild failed[39m
+[31mRollupError: Failed to compile. Check the logs above.
+    at error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:349:30)
+    at Object.error (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\rollup\dist\shared\rollup.js:1715:20)
+    at Object.error (D
