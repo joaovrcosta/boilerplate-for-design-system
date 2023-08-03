@@ -1,0 +1,1234 @@
+
+> @ignite-ui/docs@1.0.0 dev
+> storybook dev -p 6006
+
+@storybook/cli v7.1.1
+
+info => Starting manager..
+╭──────────────────────────────────────────────────────────────────────────────╮│                                                                              ││   Storybook 7.1.1 for D:\projects\ignite-reactjs\reactjs-module-five\node_   ││   modules\@storybook\react-vite started                                      ││   815 ms for manager and 3.48 s for preview                                  ││                                                                              ││   Local:            http://localhost:6006/                                   ││   On your network:  http://26.103.7.171:6006/                                ││                                                                              ││   A new version (7.2.1) is available!                                        ││                                                                              ││   Upgrade now: npx storybook@latest upgrade                                  ││                                                                              ││   Read full changelog:                                                       ││   https://github.com/storybookjs/storybook/blob/next/CHANGELOG.md            ││                                                                              │╰──────────────────────────────────────────────────────────────────────────────╯
+WARN Expected '@storybook/addon-actions' (or '@storybook/addon-essentials') to be listed before '@storybook/addon-interactions' in main Storybook config.
+[2m14:33:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:43:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:43:32[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33m@radix-ui/react-checkbox[32m[39m
+[2m14:43:32[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+WARN Expected '@storybook/addon-actions' (or '@storybook/addon-essentials') to be listed before '@storybook/addon-interactions' in main Storybook config.
+[2m14:44:00[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN Expected '@storybook/addon-actions' (or '@storybook/addon-essentials') to be listed before '@storybook/addon-interactions' in main Storybook config.
+[2m14:44:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN 🚨 Unable to index ./src/stories/Checkbox.stories.tsx:
+WARN   NoMetaError: CSF: missing default export D:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Checkbox.stories.tsx (line 1, col 0)
+WARN 
+WARN More info: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
+WARN     at CsfFile.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:14:206)
+WARN     at Object.indexer (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\presets\common-preset.js:21:2038)
+WARN     at async StoryIndexGenerator.extractStories (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:3547)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1881
+WARN     at async Promise.all (index 7)
+WARN     at async Promise.all (index 1)
+WARN     at async StoryIndexGenerator.updateExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1653)
+WARN     at async StoryIndexGenerator.ensureExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:2274)
+WARN     at async StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3400)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+[2m14:47:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:47:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:48:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:49:09[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:49:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:49:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:49:26[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:49:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:49:43[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:50:03[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:50:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:51:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:51:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:51:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:56:48[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:57:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN 🚨 Unable to index ./src/stories/MultiStep.stories.tsx:
+WARN   NoMetaError: CSF: missing default export D:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/MultiStep.stories.tsx (line 1, col 0)
+WARN 
+WARN More info: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
+WARN     at CsfFile.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:14:206)
+WARN     at Object.indexer (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\presets\common-preset.js:21:2038)
+WARN     at async StoryIndexGenerator.extractStories (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:3547)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1881
+WARN     at async Promise.all (index 8)
+WARN     at async Promise.all (index 1)
+WARN     at async StoryIndexGenerator.updateExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1653)
+WARN     at async StoryIndexGenerator.ensureExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:2274)
+WARN     at async StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3400)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+WARN 🚨 Unable to index ./src/stories/TextInput.stories.tsx,./src/stories/MultiStep.stories.tsx:
+WARN   Error: Duplicate stories with id: form-textinput--primary
+WARN     at StoryIndexGenerator.chooseDuplicate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:1455)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3736
+WARN     at Array.forEach (<anonymous>)
+WARN     at StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3643)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+WARN 🚨 Unable to index ./src/stories/TextInput.stories.tsx,./src/stories/MultiStep.stories.tsx:
+WARN   Error: Duplicate stories with id: form-textinput--primary
+WARN     at StoryIndexGenerator.chooseDuplicate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:1455)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3736
+WARN     at Array.forEach (<anonymous>)
+WARN     at StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3643)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+[2m14:59:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:59:26[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:59:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:59:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:59:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:00:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:00:44[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:00:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:01:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:01:37[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:01:45[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:02:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:02:21[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:02:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:02:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:03:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:03:38[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:04:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:04:44[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:04:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:05:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:05:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:06:45[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:07:03[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:07:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:07:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:08:44[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:11:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:11:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:12:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:12:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:12:41[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:13:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:13:51[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:14:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:14:20[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:14:45[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:15:27[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:15:41[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN Expected '@storybook/addon-actions' (or '@storybook/addon-essentials') to be listed before '@storybook/addon-interactions' in main Storybook config.
+[2m15:19:39[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:20:11[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:20:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:20:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:20:40[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:20:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:21:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:53:10[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:53:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:53:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m15:55:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m16:02:14[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN 🚨 Unable to index ./src/stories/Button.stories.tsx:
+WARN   SyntaxError: Unexpected token, expected "]" (13:26)
+WARN     at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+WARN     at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+WARN     at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+WARN     at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+WARN     at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+WARN     at TypeScriptParserMixin.parsePropertyName (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11831:12)
+WARN     at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11733:22)
+WARN     at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+WARN     at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+WARN     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+WARN     at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+WARN     at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+WARN     at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+WARN     at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+WARN     at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+WARN     at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+WARN     at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+WARN     at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+WARN     at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+WARN     at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+WARN     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+WARN     at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+WARN     at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+WARN     at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+WARN     at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+WARN     at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+WARN     at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+WARN     at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+WARN     at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+WARN     at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+WARN     at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+Unexpected token, expected "]" (13:26)
+[2m16:02:14[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\projects\ignite-reactjs\reactjs-module-five\packages\docs\src\stories\Button.stories.tsx: Unexpected token, expected "]" (13:26)
+
+  11 |   },
+  12 |   argTypes: {
+> 13 |     variant: {  ['primary', 'secondary', 'tertiary'] },
+     |                           ^
+  14 |     onClick: { action: 'clicked' },
+  15 |   },
+  16 | } as Meta<ButtonProps>[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Button.stories.tsx[39m:13:26
+[33m  11 |    },
+  12 |    argTypes: {
+  13 |      variant: {  ['primary', 'secondary', 'tertiary'] },
+     |                                        ^
+  14 |      onClick: { action: 'clicked' },
+  15 |    },[39m
+      at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+      at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+      at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+      at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+      at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+      at TypeScriptParserMixin.parsePropertyName (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11831:12)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11733:22)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+Unexpected token, expected "]" (13:26)
+[2m16:02:14[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\projects\ignite-reactjs\reactjs-module-five\packages\docs\src\stories\Button.stories.tsx: Unexpected token, expected "]" (13:26)
+
+  11 |   },
+  12 |   argTypes: {
+> 13 |     variant: {  ['primary', 'secondary', 'tertiary'] },
+     |                           ^
+  14 |     onClick: { action: 'clicked' },
+  15 |   },
+  16 | } as Meta<ButtonProps>[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Button.stories.tsx[39m:13:26
+[33m  11 |    },
+  12 |    argTypes: {
+  13 |      variant: {  ['primary', 'secondary', 'tertiary'] },
+     |                                        ^
+  14 |      onClick: { action: 'clicked' },
+  15 |    },[39m
+      at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+      at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+      at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+      at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+      at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+      at TypeScriptParserMixin.parsePropertyName (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11831:12)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11733:22)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+[2m16:02:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN 🚨 Unable to index ./src/stories/Button.stories.tsx:
+WARN   SyntaxError: Unexpected token, expected "]" (13:26)
+WARN     at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+WARN     at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+WARN     at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+WARN     at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+WARN     at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+WARN     at TypeScriptParserMixin.parsePropertyName (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11831:12)
+WARN     at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11733:22)
+WARN     at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+WARN     at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+WARN     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+Unexpected token, expected "]" (13:26)
+[2m16:02:28[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\projects\ignite-reactjs\reactjs-module-five\packages\docs\src\stories\Button.stories.tsx: Unexpected token, expected "]" (13:26)
+WARN     at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+WARN     at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+
+  11 |   },
+  12 |   argTypes: {
+> 13 |     variant: {  ['primary', 'secondary', 'tertiary'] 
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+WARN     at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+WARN     at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+     |                           ^
+  14 |       control: { type: 'select' },
+  15 |     onClick: { action: 'clicked' },
+  16 |   },[39m
+  Plugin: [35mvite:react-babel[39m
+WARN     at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+WARN     at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+WARN     at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+  File: [36mD:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Button.stories.tsx[39m:13:26
+[33m  11 |    },
+WARN     at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+  12 |    argTypes: {
+  13 |      variant: {  ['primary', 'secondary', 'tertiary'] 
+WARN     at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+     |                                        ^
+  14 |        control: { type: 'select' },
+  15 |      onClick: { action: 'clicked' },[39m
+      at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+      at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+      at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+      at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+      at TypeScriptParserMixin.parsePropertyName (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11831:12)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11733:22)
+WARN     at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+WARN     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+WARN     at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+WARN     at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+WARN     at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+WARN     at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+WARN     at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+WARN     at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+WARN     at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+WARN     at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+WARN     at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+WARN     at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+Unexpected token, expected "]" (13:26)
+[2m16:02:28[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\projects\ignite-reactjs\reactjs-module-five\packages\docs\src\stories\Button.stories.tsx: Unexpected token, expected "]" (13:26)
+
+  11 |   },
+  12 |   argTypes: {
+> 13 |     variant: {  ['primary', 'secondary', 'tertiary'] 
+     |                           ^
+  14 |       control: { type: 'select' },
+  15 |     onClick: { action: 'clicked' },
+  16 |   },[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Button.stories.tsx[39m:13:26
+[33m  11 |    },
+  12 |    argTypes: {
+  13 |      variant: {  ['primary', 'secondary', 'tertiary'] 
+     |                                        ^
+  14 |        control: { type: 'select' },
+  15 |      onClick: { action: 'clicked' },[39m
+      at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+      at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+      at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+      at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+      at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+      at TypeScriptParserMixin.parsePropertyName (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11831:12)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11733:22)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+[2m16:02:32[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN 🚨 Unable to index ./src/stories/Button.stories.tsx:
+WARN   SyntaxError: Unexpected token, expected "]" (13:26)
+Unexpected token, expected "]" (13:26)
+WARN     at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+WARN     at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+[2m16:02:32[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\projects\ignite-reactjs\reactjs-module-five\packages\docs\src\stories\Button.stories.tsx: Unexpected token, expected "]" (13:26)
+
+WARN     at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+WARN     at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+  11 |   },
+  12 |   argTypes: {
+> 13 |     variant: {  ['primary', 'secondary', 'tertiary'] ,
+     |                           ^
+  14 |       control: { type: 'select' },
+  15 |     onClick: { action: 'clicked' },
+  16 |   },[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Button.stories.tsx[39m:13:26
+WARN     at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+WARN     at TypeScriptParserMixin.parsePropertyName (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11831:12)
+WARN     at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11733:22)
+WARN     at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+WARN     at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+WARN     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+WARN     at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+[33m  11 |    },
+  12 |    argTypes: {
+  13 |      variant: {  ['primary', 'secondary', 'tertiary'] ,
+     |                                        ^
+  14 |        control: { type: 'select' },
+  15 |      onClick: { action: 'clicked' },[39m
+      at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+      at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+      at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+      at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+      at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+      at TypeScriptParserMixin.parsePropertyName (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11831:12)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11733:22)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+WARN     at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+WARN     at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+WARN     at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+WARN     at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+WARN     at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+WARN     at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+WARN     at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+WARN     at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+WARN     at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+WARN     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+WARN     at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+WARN     at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+WARN     at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+WARN     at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+WARN     at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+WARN     at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+WARN     at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+WARN     at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+WARN     at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+WARN     at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+Unexpected token, expected "]" (13:26)
+[2m16:02:32[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\projects\ignite-reactjs\reactjs-module-five\packages\docs\src\stories\Button.stories.tsx: Unexpected token, expected "]" (13:26)
+
+  11 |   },
+  12 |   argTypes: {
+> 13 |     variant: {  ['primary', 'secondary', 'tertiary'] ,
+     |                           ^
+  14 |       control: { type: 'select' },
+  15 |     onClick: { action: 'clicked' },
+  16 |   },[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Button.stories.tsx[39m:13:26
+[33m  11 |    },
+  12 |    argTypes: {
+  13 |      variant: {  ['primary', 'secondary', 'tertiary'] ,
+     |                                        ^
+  14 |        control: { type: 'select' },
+  15 |      onClick: { action: 'clicked' },[39m
+      at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+      at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+      at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+      at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+      at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+      at TypeScriptParserMixin.parsePropertyName (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11831:12)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11733:22)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12280:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11796:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11823:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9643:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11757:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11672:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+[2m16:03:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN 🚨 Unable to index ./src/stories/Button.stories.tsx:
+WARN   SyntaxError: Unexpected token, expected "," (20:0)
+WARN     at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+WARN     at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+WARN     at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+WARN     at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+WARN     at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+WARN     at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11662:14)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+WARN     at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+WARN     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+WARN     at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+WARN     at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+WARN     at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12275:16)
+WARN     at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+WARN     at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13822:22)
+WARN     at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9342:18)
+WARN     at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13726:25)
+WARN     at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9325:20)
+WARN     at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12711:27)
+WARN     at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9382:18)
+WARN     at TypeScriptParserMixin.parseStatementLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12584:17)
+WARN     at TypeScriptParserMixin.parseModuleItem (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12561:17)
+WARN     at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13185:36)
+WARN     at TypeScriptParserMixin.parseBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13178:10)
+WARN     at TypeScriptParserMixin.parseProgram (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12460:10)
+WARN     at TypeScriptParserMixin.parseTopLevel (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12450:25)
+WARN     at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14345:10)
+WARN     at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10024:18)
+WARN     at Object.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14386:38)
+WARN     at parseWithFlowOrTypescript (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:1:2201)
+WARN     at Object.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:1:2404)
+WARN     at Object.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\recast\lib\parser.js:23:30)
+WARN     at babelParse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:1:2363)
+WARN     at loadCsf (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:18:1645)
+WARN     at Object.indexer (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\presets\common-preset.js:21:2012)
+WARN     at async StoryIndexGenerator.extractStories (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:3547)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1881
+WARN     at async Promise.all (index 2)
+WARN     at async Promise.all (index 1)
+WARN     at async StoryIndexGenerator.updateExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1653)
+WARN     at async StoryIndexGenerator.ensureExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:2274)
+WARN     at async StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3400)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+Unexpected token, expected "," (20:0)
+[2m16:03:06[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\projects\ignite-reactjs\reactjs-module-five\packages\docs\src\stories\Button.stories.tsx: Unexpected token, expected "," (20:0)
+
+  18 | } as Meta<ButtonProps>
+  19 |
+> 20 | export const Primary: StoryObj<ButtonProps> = {}
+     | ^
+  21 |
+  22 | export const Secondary: StoryObj<ButtonProps> = {
+  23 |   args: {[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Button.stories.tsx[39m:20:0
+[33m  18 |  } as Meta<ButtonProps>
+  19 |  
+  20 |  export const Primary: StoryObj<ButtonProps> = {}
+     |                     ^
+  21 |  
+  22 |  export const Secondary: StoryObj<ButtonProps> = {[39m
+      at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+      at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+      at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+      at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+      at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11662:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12275:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13822:22)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9342:18)
+      at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13726:25)
+      at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9325:20)
+      at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12711:27)
+      at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9382:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12584:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12561:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13185:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13178:10)
+      at TypeScriptParserMixin.parseProgram (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12460:10)
+      at TypeScriptParserMixin.parseTopLevel (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12450:25)
+      at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14345:10)
+      at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10024:18)
+      at parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14386:38)
+      at parser (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transformation\normalize-file.js:64:38)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transformation\index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transform.js:22:41)
+      at transform.next (<anonymous>)
+      at step (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:261:32)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:223:11)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:189:28
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\gensync-utils\async.js:68:7
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:113:33
+      at step (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:287:14)
+Unexpected token, expected "," (20:0)
+[2m16:03:06[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\projects\ignite-reactjs\reactjs-module-five\packages\docs\src\stories\Button.stories.tsx: Unexpected token, expected "," (20:0)
+
+  18 | } as Meta<ButtonProps>
+  19 |
+> 20 | export const Primary: StoryObj<ButtonProps> = {}
+     | ^
+  21 |
+  22 | export const Secondary: StoryObj<ButtonProps> = {
+  23 |   args: {[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Button.stories.tsx[39m:20:0
+[33m  18 |  } as Meta<ButtonProps>
+  19 |  
+  20 |  export const Primary: StoryObj<ButtonProps> = {}
+     |                     ^
+  21 |  
+  22 |  export const Secondary: StoryObj<ButtonProps> = {[39m
+      at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+      at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+      at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+      at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+      at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11662:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12275:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13822:22)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9342:18)
+      at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13726:25)
+      at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9325:20)
+      at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12711:27)
+      at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9382:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12584:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12561:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13185:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13178:10)
+      at TypeScriptParserMixin.parseProgram (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12460:10)
+      at TypeScriptParserMixin.parseTopLevel (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12450:25)
+      at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14345:10)
+      at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10024:18)
+      at parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14386:38)
+      at parser (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transformation\normalize-file.js:64:38)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transformation\index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transform.js:22:41)
+      at transform.next (<anonymous>)
+      at step (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:261:32)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:223:11)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:189:28
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\gensync-utils\async.js:68:7
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:113:33
+      at step (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:287:14)
+[2m16:03:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN 🚨 Unable to index ./src/stories/Button.stories.tsx:
+WARN   SyntaxError: Unexpected token, expected "," (20:0)
+WARN     at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+WARN     at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+WARN     at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+WARN     at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+WARN     at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+WARN     at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11662:14)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+WARN     at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+WARN     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+WARN     at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+WARN     at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+WARN     at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12275:16)
+WARN     at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+WARN     at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13822:22)
+WARN     at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9342:18)
+WARN     at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13726:25)
+WARN     at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9325:20)
+WARN     at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12711:27)
+WARN     at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9382:18)
+WARN     at TypeScriptParserMixin.parseStatementLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12584:17)
+WARN     at TypeScriptParserMixin.parseModuleItem (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12561:17)
+WARN     at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13185:36)
+WARN     at TypeScriptParserMixin.parseBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13178:10)
+WARN     at TypeScriptParserMixin.parseProgram (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12460:10)
+WARN     at TypeScriptParserMixin.parseTopLevel (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12450:25)
+WARN     at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14345:10)
+WARN     at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10024:18)
+WARN     at Object.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14386:38)
+WARN     at parseWithFlowOrTypescript (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:1:2201)
+WARN     at Object.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:1:2404)
+WARN     at Object.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\recast\lib\parser.js:23:30)
+WARN     at babelParse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:1:2363)
+WARN     at loadCsf (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:18:1645)
+WARN     at Object.indexer (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\presets\common-preset.js:21:2012)
+WARN     at async StoryIndexGenerator.extractStories (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:3547)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1881
+WARN     at async Promise.all (index 2)
+WARN     at async Promise.all (index 1)
+WARN     at async StoryIndexGenerator.updateExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1653)
+WARN     at async StoryIndexGenerator.ensureExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:2274)
+WARN     at async StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3400)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+Unexpected token, expected "," (20:0)
+[2m16:03:24[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\projects\ignite-reactjs\reactjs-module-five\packages\docs\src\stories\Button.stories.tsx: Unexpected token, expected "," (20:0)
+
+  18 | } as Meta<ButtonProps>
+  19 |
+> 20 | export const Primary: StoryObj<ButtonProps> = {}
+     | ^
+  21 |
+  22 | export const Secondary: StoryObj<ButtonProps> = {
+  23 |   args: {[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Button.stories.tsx[39m:20:0
+[33m  18 |  } as Meta<ButtonProps>
+  19 |  
+  20 |  export const Primary: StoryObj<ButtonProps> = {}
+     |                     ^
+  21 |  
+  22 |  export const Secondary: StoryObj<ButtonProps> = {[39m
+      at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+      at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+      at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+      at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+      at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11662:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12275:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13822:22)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9342:18)
+      at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13726:25)
+      at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9325:20)
+      at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12711:27)
+      at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9382:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12584:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12561:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13185:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13178:10)
+      at TypeScriptParserMixin.parseProgram (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12460:10)
+      at TypeScriptParserMixin.parseTopLevel (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12450:25)
+      at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14345:10)
+      at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10024:18)
+      at parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14386:38)
+      at parser (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transformation\normalize-file.js:64:38)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transformation\index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transform.js:22:41)
+      at transform.next (<anonymous>)
+      at step (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:261:32)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:223:11)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:189:28
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\gensync-utils\async.js:68:7
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:113:33
+      at step (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:287:14)
+Unexpected token, expected "," (20:0)
+[2m16:03:24[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\projects\ignite-reactjs\reactjs-module-five\packages\docs\src\stories\Button.stories.tsx: Unexpected token, expected "," (20:0)
+
+  18 | } as Meta<ButtonProps>
+  19 |
+> 20 | export const Primary: StoryObj<ButtonProps> = {}
+     | ^
+  21 |
+  22 | export const Secondary: StoryObj<ButtonProps> = {
+  23 |   args: {[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Button.stories.tsx[39m:20:0
+[33m  18 |  } as Meta<ButtonProps>
+  19 |  
+  20 |  export const Primary: StoryObj<ButtonProps> = {}
+     |                     ^
+  21 |  
+  22 |  export const Secondary: StoryObj<ButtonProps> = {[39m
+      at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+      at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+      at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+      at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+      at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11662:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12275:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13822:22)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9342:18)
+      at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13726:25)
+      at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9325:20)
+      at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12711:27)
+      at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9382:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12584:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12561:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13185:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13178:10)
+      at TypeScriptParserMixin.parseProgram (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12460:10)
+      at TypeScriptParserMixin.parseTopLevel (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12450:25)
+      at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14345:10)
+      at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10024:18)
+      at parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14386:38)
+      at parser (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transformation\normalize-file.js:64:38)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transformation\index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transform.js:22:41)
+      at transform.next (<anonymous>)
+      at step (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:261:32)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:223:11)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:189:28
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\gensync-utils\async.js:68:7
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:113:33
+      at step (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:287:14)
+[2m16:03:38[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN 🚨 Unable to index ./src/stories/Button.stories.tsx:
+WARN   SyntaxError: Unexpected token, expected "," (20:0)
+WARN     at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+WARN     at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+WARN     at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+WARN     at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+WARN     at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+WARN     at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11662:14)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+WARN     at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+WARN     at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+WARN     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+WARN     at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+WARN     at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+WARN     at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12275:16)
+WARN     at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+WARN     at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13822:22)
+WARN     at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9342:18)
+WARN     at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13726:25)
+WARN     at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9325:20)
+WARN     at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12711:27)
+WARN     at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9382:18)
+WARN     at TypeScriptParserMixin.parseStatementLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12584:17)
+WARN     at TypeScriptParserMixin.parseModuleItem (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12561:17)
+WARN     at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13185:36)
+WARN     at TypeScriptParserMixin.parseBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13178:10)
+WARN     at TypeScriptParserMixin.parseProgram (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12460:10)
+WARN     at TypeScriptParserMixin.parseTopLevel (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12450:25)
+WARN     at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14345:10)
+WARN     at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10024:18)
+WARN     at Object.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14386:38)
+WARN     at parseWithFlowOrTypescript (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:1:2201)
+WARN     at Object.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:1:2404)
+WARN     at Object.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\recast\lib\parser.js:23:30)
+WARN     at babelParse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:1:2363)
+WARN     at loadCsf (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:18:1645)
+WARN     at Object.indexer (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\presets\common-preset.js:21:2012)
+WARN     at async StoryIndexGenerator.extractStories (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:3547)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1881
+WARN     at async Promise.all (index 2)
+WARN     at async Promise.all (index 1)
+WARN     at async StoryIndexGenerator.updateExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1653)
+WARN     at async StoryIndexGenerator.ensureExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:2274)
+WARN     at async StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3400)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+Unexpected token, expected "," (20:0)
+[2m16:03:38[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\projects\ignite-reactjs\reactjs-module-five\packages\docs\src\stories\Button.stories.tsx: Unexpected token, expected "," (20:0)
+
+  18 | } as Meta<ButtonProps>
+  19 |
+> 20 | export const Primary: StoryObj<ButtonProps> = {}
+     | ^
+  21 |
+  22 | export const Secondary: StoryObj<ButtonProps> = {
+  23 |   args: {[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Button.stories.tsx[39m:20:0
+[33m  18 |  } as Meta<ButtonProps>
+  19 |  
+  20 |  export const Primary: StoryObj<ButtonProps> = {}
+     |                     ^
+  21 |  
+  22 |  export const Secondary: StoryObj<ButtonProps> = {[39m
+      at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+      at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+      at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+      at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+      at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11662:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12275:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13822:22)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9342:18)
+      at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13726:25)
+      at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9325:20)
+      at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12711:27)
+      at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9382:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12584:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12561:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13185:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13178:10)
+      at TypeScriptParserMixin.parseProgram (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12460:10)
+      at TypeScriptParserMixin.parseTopLevel (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12450:25)
+      at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14345:10)
+      at TypeScriptParserMixin.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10024:18)
+      at parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:14386:38)
+      at parser (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transformation\normalize-file.js:64:38)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transformation\index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\transform.js:22:41)
+      at transform.next (<anonymous>)
+      at step (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:261:32)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:223:11)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:189:28
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\core\lib\gensync-utils\async.js:68:7
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:113:33
+      at step (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\gensync\index.js:287:14)
+Unexpected token, expected "," (20:0)
+[2m16:03:38[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\projects\ignite-reactjs\reactjs-module-five\packages\docs\src\stories\Button.stories.tsx: Unexpected token, expected "," (20:0)
+
+  18 | } as Meta<ButtonProps>
+  19 |
+> 20 | export const Primary: StoryObj<ButtonProps> = {}
+     | ^
+  21 |
+  22 | export const Secondary: StoryObj<ButtonProps> = {
+  23 |   args: {[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/Button.stories.tsx[39m:20:0
+[33m  18 |  } as Meta<ButtonProps>
+  19 |  
+  20 |  export const Primary: StoryObj<ButtonProps> = {}
+     |                     ^
+  21 |  
+  22 |  export const Secondary: StoryObj<ButtonProps> = {[39m
+      at instantiate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:63:32)
+      at constructor (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:358:12)
+      at TypeScriptParserMixin.raise (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3255:19)
+      at TypeScriptParserMixin.unexpected (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3285:16)
+      at TypeScriptParserMixin.expect (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:3627:28)
+      at TypeScriptParserMixin.parseObjectLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11662:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:11182:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:6974:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10890:23)
+      at TypeScriptParserMixin.parseUpdate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10873:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10849:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9738:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10687:61)
+      at TypeScriptParserMixin.parseExprOps (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10692:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10669:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10630:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9685:20)
+      at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:39
+      at TypeScriptParserMixin.allowInAnd (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12275:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:10600:17)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13822:22)
+      at TypeScriptParserMixin.parseExportDefaultExpression (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9342:18)
+      at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:13726:25)
+      at TypeScriptParserMixin.parseExport (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9325:20)
+      at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:12711:27)
+      at TypeScriptParserMixin.parseStatementContent (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\index.js:9382:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@babel\parser\lib\inde
