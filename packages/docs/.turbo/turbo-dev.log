@@ -24,4 +24,111 @@ WARN Expected '@storybook/addon-actions' (or '@storybook/addon-essentials') to b
 [2m13:32:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
 [2m13:32:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
 [2m13:33:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
-[2m13:33:46[22m [36m[1m[vite][22m[39m [32mhmr upda
+[2m13:33:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:34:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:35:11[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:35:25[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:35:41[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:35:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:36:58[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:37:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:38:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:38:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:38:31[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:38:45[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:39:11[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN Expected '@storybook/addon-actions' (or '@storybook/addon-essentials') to be listed before '@storybook/addon-interactions' in main Storybook config.
+[2m13:39:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:39:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:39:48[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:39:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:42:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:42:25[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:42:32[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:46:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:47:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+WARN 🚨 Unable to index ./src/stories/TextInput.stories.tsx:
+WARN   NoMetaError: CSF: missing default export D:/projects/ignite-reactjs/reactjs-module-five/packages/docs/src/stories/TextInput.stories.tsx (line 1, col 0)
+WARN 
+WARN More info: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
+WARN     at CsfFile.parse (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\csf-tools\dist\index.js:14:206)
+WARN     at Object.indexer (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\presets\common-preset.js:21:2038)
+WARN     at async StoryIndexGenerator.extractStories (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:3547)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1881
+WARN     at async Promise.all (index 5)
+WARN     at async Promise.all (index 1)
+WARN     at async StoryIndexGenerator.updateExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:1653)
+WARN     at async StoryIndexGenerator.ensureExtracted (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:60:2274)
+WARN     at async StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3400)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+WARN 🚨 Unable to index files:
+WARN - ./src/stories/Text.stories.tsx,./src/stories/TextInput.stories.tsx: Duplicate stories with id: typography-text--primary
+WARN - ./src/stories/Text.stories.tsx,./src/stories/TextInput.stories.tsx: Duplicate stories with id: typography-text--custom-tag
+WARN 🚨 Unable to index files:
+WARN - ./src/stories/Text.stories.tsx,./src/stories/TextInput.stories.tsx: Duplicate stories with id: typography-text--primary
+WARN - ./src/stories/Text.stories.tsx,./src/stories/TextInput.stories.tsx: Duplicate stories with id: typography-text--custom-tag
+WARN 🚨 Unable to index files:
+WARN - ./src/stories/Text.stories.tsx,./src/stories/TextInput.stories.tsx: Duplicate stories with id: typography-text--primary
+WARN - ./src/stories/Text.stories.tsx,./src/stories/TextInput.stories.tsx: Duplicate stories with id: typography-text--custom-tag
+WARN 🚨 Unable to index files:
+WARN - ./src/stories/Text.stories.tsx,./src/stories/TextInput.stories.tsx: Duplicate stories with id: typography-text--primary
+WARN - ./src/stories/Text.stories.tsx,./src/stories/TextInput.stories.tsx: Duplicate stories with id: typography-text--custom-tag
+WARN 🚨 Unable to index ./src/stories/Text.stories.tsx,./src/stories/TextInput.stories.tsx:
+WARN   Error: Duplicate stories with id: typography-text--primary
+WARN     at StoryIndexGenerator.chooseDuplicate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:1455)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3736
+WARN     at Array.forEach (<anonymous>)
+WARN     at StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3643)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+WARN 🚨 Unable to index ./src/stories/Text.stories.tsx,./src/stories/TextInput.stories.tsx:
+WARN   Error: Duplicate stories with id: typography-text--primary
+WARN     at StoryIndexGenerator.chooseDuplicate (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:1455)
+WARN     at D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3736
+WARN     at Array.forEach (<anonymous>)
+WARN     at StoryIndexGenerator.getIndex (D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:65:3643)
+WARN     at async D:\projects\ignite-reactjs\reactjs-module-five\node_modules\@storybook\core-server\dist\index.js:57:5188
+WARN Expected '@storybook/addon-actions' (or '@storybook/addon-essentials') to be listed before '@storybook/addon-interactions' in main Storybook config.
+[2m13:48:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:49:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:49:50[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:50:13[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:50:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:51:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:51:11[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:51:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:51:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:52:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:52:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:52:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:53:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:53:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:54:05[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:54:38[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:54:50[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:54:58[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:55:05[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:55:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:55:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:55:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:55:50[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:55:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:56:44[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:57:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:57:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:57:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:58:03[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:58:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:58:27[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:58:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:59:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:59:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:59:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:59:54[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m13:59:58[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:00:03[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:00:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:00:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:00:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:00:58[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:01:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m14:01:27[22m [36m[
